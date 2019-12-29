@@ -3,4 +3,5 @@
  <img src="img/logo.png"/>
 </div>
 </br>
-Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV"
+</br>
+Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz kolegija Multimedijski sustavi.
