@@ -6,6 +6,7 @@
 </br>
 Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz kolegija Multimedijski sustavi.
 ## Korištene tehnologije:
+</br>
 
 * HTML
 * CSS
