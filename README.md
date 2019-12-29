@@ -1,6 +1,6 @@
 <div align="center">
 <h1>AMV</h1>
- <img src="img/logo.png"/>
+<img src="img/galerija/zgrada1.jpg"/>
 </div>
 </br>
 </br>
@@ -14,6 +14,6 @@ Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz koleg
 * Bulma
 * Swiper.js
 
-<img src="img/galerija/zgrada1.jpg"/>
+
 <img src="img/galerija/stube.jpg"/>
 <img src="img/galerija/auto.jpg/>
