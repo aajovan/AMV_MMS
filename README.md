@@ -14,7 +14,10 @@ Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz koleg
 * Bulma
 * Swiper.js
 
-
+<img src="projekt_slike/amv1.jpg"/>
+<img src="projekt_slike/amv2.jpg"/>
+<img src="projekt_slike/amv3.jpg"/>
+<img src="projekt_slike/amv4.jpg"/>
 <img src="img/galerija/stube.jpg"/>
 <img src="img/galerija/auto.jpg"/>
 <img src="img/usluge/crm.jpg"/>
