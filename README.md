@@ -13,6 +13,7 @@ Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz koleg
 * Javascript
 * Bulma
 * Swiper.js
+* SaSS
 <h4>Izgled web-stranica</h4>
 <img src="projekt_slike/amv1.jpg"/>
 <img src="projekt_slike/amv2.jpg"/>
