@@ -16,3 +16,4 @@ Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz koleg
 
 <img src="img/galerija/zgrada1.jpg"/>
 <img src="img/galerija/stube.jpg"/>
+<img src="img/galerija/auto.jpg/>
