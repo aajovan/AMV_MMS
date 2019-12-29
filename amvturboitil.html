@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/animacije.css">
+  <link rel="stylesheet" href="css/bulma_fix.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+
+</head>
+<body>
+  <!-- Navigacija-->
+  <nav id="navigacija" class="navbar is-fixed-top navbar-white">
+    <div class="container is-fluid">
+      <div class="navbar-brand ">
+        <a class="navbar-item" href="index.html">
+          <img id="logo" alt="AMV" class="grow" src="img/logo.png">
+        </a>
+        <div class="navbar-burger burger" data-target="navMenubd-example">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenubd-example" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a  id="nav-text_1" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>O nama</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="opceinformacije.html">
+                Opće informacije
+              </a>
+              <a class="navbar-item " href="storadimo.html">
+                Što radimo?
+              </a>
+              <a class="navbar-item " href="nasiklijenti.html">
+                Naši klijenti
+              </a>
+              <a class="navbar-item " href="misijavizija.html">
+                Misija i vizija
+              </a>
+              <a class="navbar-item " href="partneri.html">
+                Partneri
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_2" style="cursor: context-menu" class="has-text-dark grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Usluge</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item" href="amvoffice.html">
+                Za ured
+              </a>
+              <a class="navbar-item " href="amvturbocrm.html">
+                Za odnose s kupcima
+              </a>
+              <a class="navbar-item has-text-dark" href="amvturboitil.html">
+                Za primjenu najbolje prakse
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_3" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Galerija</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="galerijaslike.html">
+                Galerija slika
+              </a>
+              <a class="navbar-item " href="galerijavideo.html">
+                Video galerija
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_4" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Iz medija</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="aktualno.html">
+                Aktualno
+              </a>
+              <a class="navbar-item " href="predstavljanje.html">
+                Predstavljanje tvrtke AMV
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable is-size-6">
+            <div class="navbar-item">
+              <a id="nav-text_5" href="kontakt.html" class="has-text-link grow is-size-5">
+                <span>Kontakt</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item field">
+            <p class="control has-icons-right">
+              <input id="trazi" class="button is-link is-outlined has-background-white is-rounded grow" type="search" placeholder="Pretraživanje...">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigacija-->
+  <div class="main-container">
+    <section class="hero is-meium has-carousel top">
+      <img alt="Misija i vizija" src="img/usluge/itil.jpg" />
+    </section>
+    <div class="tabs is-boxed is-centered main-menu" id="nav">
+      <ul>
+        <li data-target="pane-1" id="1" class="is-active">
+          <a>
+            <span class="icon is-small"><i class="fa fa-users"></i></span>
+            <span>Namjena</span>
+          </a>
+        </li>
+        <li data-target="pane-2" id="2" class="">
+          <a>
+            <span class="icon is-small"><i class="fas fa-plus"></i></span>
+            <span >Prednosti</span>
+          </a>
+        </li>
+        <li data-target="pane-3" id="3">
+          <a>
+            <span class="icon is-small"><i class="fas fa-tasks"></i></span>
+            <span>Mogućnosti</span>
+          </a>
+        </li>
+        <li data-target="pane-4" id="4">
+          <a>
+            <span class="icon is-small"><i class="fa fa-shopping-cart"></i></span>
+            <span>Kupnja</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content container">
+      <div class="tab-pane is-active" id="pane-1">
+        <div class="card-content">
+          <div class="box">
+            <h4 class="has-text-centered has-text-white box has-background-link">Što je AMV TurboITIL i kome je namijenjen?</h4>
+            <p>TurboITIL je softversko ITSM rješenje tvrtke AMV za implementaciju ITIL najbolje prakse u informatičkim poduzećima, s ciljem unapređenja IT usluga prema zahtjevima kupaca i same tvrtke, optimizacije kvalitete IT usluga te smanjenje troškova pružanja usluga.</p>
+          </div>
+          <h3 class=" box">AMV TurboITIL namijenjen je svim malim i srednjim informatičkim poduzećima, odnosno IT stručnjacima, profesionalcima, menadžerima i članovima upravljačkih struktura tih poduzeća, koji žele unaprijediti postojeće poslovne procese kroz implementaciju informacijske tehnologije unutar organizacije.</h3>
+          <div class="box">
+            <div class="columns">
+              <div class="column">
+                <p class="box is-transparent">Uz TurboITIL softver tvrtke AMV implementirajte u svom poduzeću ITIL najbolju praksu kroz sve faze životnog ciklusa Vaših usluga. ITIL je okvir za uspješno upravljanje IT uslugama koji obuhvaća IT usluge, IT procese i IT infrastrukturu, a sastavljen je na temelju u praksi dokazanih najboljih iskustava državnog sektora i industrije, s ciljem dostave vrijednosti klijentima.</p>
+              </div>
+              <div class="column">
+                <p class="box is-transparent">AMV TurboITIL pruža programsku potporu za sve poslovne procese unutar svake pojedine faze životnog ciklusa usluge, automatizira njihovo nadgledanje i izvršavanje i time znatno štedi ljudske i materijalne resurse u Vašem poduzeću.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-2" style="display:none;">
+        <div class="card-content">
+          <div class="box">
+            <h4 class="has-text-centered has-text-white box has-background-link">Zašto AMV TurboITIL?</h4>
+            <div class="columns">
+              <div class="column">
+                <p class="box is-transparent">U bogatoj ponudi ITSM softvera na stranom tržištu (Jira Service Desk, Remedy ITSM, SysAid, FootPrints…), naš TurboITIL softver ističe se svojom prilagođenošću domaćim uvjetima poslovanja i svi njegovi moduli u potpunosti su prevedeni na hrvatski jezik. Za razliku od većine sličnog softvera, ovaj alat tvrtke AMV podržava apsolutno sve procese iz svih 5 faza životnog ciklusa usluge (strategija, dizajn, tranzicija, pružanje i kontinuirano poboljšanje).
+                </p>
+              </div>
+              <div class="column">
+                <p class="box is-transparent">Prednosti uvođenja ITIL-a su mnogobrojne. Povećava se kvaliteta pružene usluge i korisničko zadovoljstvo, smanjuju se troškovi, IT odjeli bolje komuniciraju s ostatkom poslovanja, sustav korisničke podrške je kvalitetniji, a Vaša IT infrastruktura je bolje iskorištena. Ukoliko već posjedujete naše CRM i AutoOffice alate, tada TurboITIL softver možete iskoristiti za učinkovitije upravljanje tim područjima i izvlačenje maksimuma iz tih alata.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-3" style="display:none;">
+        <div class="card-content">
+          <div class="">
+            <h4 class="has-text-centered has-text-white box has-background-link">Što sve AMV TurboITIL omogućuje?</h4>
+            <ul class="" >
+              <li class="box">Programsku podršku (module) za sljedeće poslovne procese: upravljanje portfeljem, zahtjevima, financijama, strategijom, poslovnim odnosima, razinom usluge, katalogom, raspoloživošću, kapacitetom, kontinuitetom, sigurnošću, dobavljačima, promjenama, imovinom/konfiguracijom, znanjem, događajima, incidentima, problemima, ispunjenjem zahtjeva i upravljanje pristupom</li>
+              <li class="box">Smanjenje nedostupnosti usluge</li>
+              <li class="box">Veću prilagodljivost tržištu</li>
+              <li class="box">Mjerljivu kvalitetu usluga</li>
+              <li class="box">Kvalitativni rast sigurnosti i raspoloživosti usluga</li>
+              <li class="box">Centralno mjesto uspostave kontakta korisnika, partnera i vanjskih suradnika s organizacijom</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-4" style="display:none;">
+        <div class="box">
+          <h4 class="has-text-centered has-text-white box has-background-link">Kako naručiti AMV TurboITIL?</h4>
+          <p>Za kupnju AMV TurboITIL softvera kontaktirajte nas na broj telefona 01/2345-678, putem elektroničke pošte ili <a href="kontakt.html">ispunite kontakt formu</a> na našoj web stranici.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <div class="" style="padding-top:5rem">
+      <footer class="footer footer-bottom is-paddingless has-background-white animted slideInUp">
+        <div class="container">
+          <div class="column has-text-centered">
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-twitter"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-facebook-f"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-instagram"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-youtube"></i>
+              </span>
+            </a>
+          </div>
+          <div class="has-text-centered">
+            <a href="index.html">
+              <img id="logo_footer" alt="AMW" class="grow" style="height:50px" src="img/logo.png">
+            </a>
+          </div>
+          <p class="has-text-black has-text-centered footer-padding is-size-7">AMV 2019.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Footer-->
+
+  <script src="js/tabs-h.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+</html>

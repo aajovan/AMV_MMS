@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/swiper_index.css">
+  <link rel="stylesheet" href="css/animacije.css">
+  <link rel="stylesheet" href="css/bulma_fix.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+  <!-- Pozadina+navigacija-->
+  <div class="is-medium">
+    <!-- Navigacija-->
+    <nav id="navigacija" class="navbar is-fixed-top navbar-gradient">
+      <div class="container is-fluid">
+        <div class="navbar-brand ">
+          <a class="navbar-item" href="index.html">
+            <img id="logo" class="grow" alt="AMV" src="img/logo-bijeli.png">
+          </a>
+          <div class="navbar-burger burger" data-target="navMenubd-example">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="navMenubd-example" class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item is-hoverable">
+              <div class="navbar-item">
+                <a  id="nav-text_1" style="cursor: context-menu" class="has-text-white grow is-size-5">
+                  <span class="icon is-small">
+                    <i class="fas fa-caret-down"></i>
+                  </span>
+                  <span>O nama</span>
+                </a>
+              </div>
+              <div class="navbar-dropdown is-size-6 ">
+                <a class="navbar-item " href="opceinformacije.html">
+                  Opće informacije
+                </a>
+                <a class="navbar-item " href="storadimo.html">
+                  Što radimo?
+                </a>
+                <a class="navbar-item " href="nasiklijenti.html">
+                  Naši klijenti
+                </a>
+                <a class="navbar-item " href="misijavizija.html">
+                  Misija i vizija
+                </a>
+                <a class="navbar-item " href="partneri.html">
+                  Partneri
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item is-hoverable">
+              <div class="navbar-item">
+                <a id="nav-text_2" style="cursor: context-menu" class="has-text-white grow is-size-5">
+                  <span class="icon is-small">
+                    <i class="fas fa-caret-down"></i>
+                  </span>
+                  <span>Usluge</span>
+                </a>
+              </div>
+              <div class="navbar-dropdown is-size-6 ">
+                <a class="navbar-item" href="amvoffice.html">
+                  Za ured
+                </a>
+                <a class="navbar-item" href="amvturbocrm.html">
+                  Za odnose s kupcima
+                </a>
+                <a class="navbar-item" href="amvturboitil.html">
+                  Za primjenu najbolje prakse
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item is-hoverable">
+              <div class="navbar-item">
+                <a id="nav-text_3" style="cursor: context-menu" class="has-text-white grow is-size-5">
+                  <span class="icon is-small">
+                    <i class="fas fa-caret-down"></i>
+                  </span>
+                  <span>Galerija</span>
+                </a>
+              </div>
+              <div class="navbar-dropdown is-size-6 ">
+                <a class="navbar-item " href="galerijaslike.html">
+                  Galerija slika
+                </a>
+                <a class="navbar-item " href="galerijavideo.html">
+                  Video galerija
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item is-hoverable">
+              <div class="navbar-item">
+                <a id="nav-text_4" style="cursor: context-menu" class="has-text-white grow is-size-5">
+                  <span class="icon is-small">
+                    <i class="fas fa-caret-down"></i>
+                  </span>
+                  <span>Iz medija</span>
+                </a>
+              </div>
+              <div class="navbar-dropdown is-size-6 ">
+                <a class="navbar-item " href="aktualno.html">
+                  Aktualno
+                </a>
+                <a class="navbar-item " href="predstavljanje.html">
+                  Predstavljanje tvrtke AMV
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item is-hoverable is-size-6">
+              <div class="navbar-item">
+                <a id="nav-text_5" href="kontakt.html" class="has-text-white grow is-size-5">
+                  <span>Kontakt</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item field">
+              <p class="control has-icons-right">
+                <input id="trazi" class="button is-link is-outlined has-background-white is-rounded grow" type="search" placeholder="Pretraživanje...">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navigacija-->
+  <!-- Swiper -->
+  <div class="hero is-medium has-carousel animated slideInDown">
+    <div class="hero is-large">
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-size:cover; background-image:url(img/index/swiper/1.jpg)">
+            <section class="hero">
+              <div class="hero-body">
+                <div class="container has-text-left-desktop">
+                  <h2 class="title has-text-white">
+                    Poslovna IT rješenja <br> po Vašoj mjeri!
+                  </h2>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide" style="background-size:cover;background-image:url(img/index/swiper/2.jpg)">
+            <section class="hero">
+              <div class="hero-body">
+                <div class="container has-text-left-desktop">
+                  <h2 class="title has-text-white">
+                    Već 10 godina <br> s Vama!
+                  </h2>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide" style="background-size:cover;background-image:url(img/index/swiper/3.jpg)">
+            <section class="hero">
+              <div class="hero-body">
+                <div class="container has-text-left-desktop">
+                  <h2 class="title has-text-white">
+                    Izazova ima, <br> nosimo se s njima!
+                  </h2>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <!-- Paginacija -->
+        <div class="swiper-pagination"></div>
+        <!-- Strelice -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Pozadina+navigacija-->
+  <div class="box animated slideInLeft">
+    <p class="has-text-centered animated infinite pulse">
+      <i class="fas fa-phone has-text-link"></i> Dogovorite sastanak već danas, kontaktirajte nas na broj <span class="has-text-link has-text-weight-bold">01/2345-678</span>.
+    </p>
+  </div>
+  <!-- Središnji dio -->
+  <section class="container is-fluid">
+    <!-- Lijevi izbornik -->
+    <div class="columns">
+      <div class="column is-2 animated slideInLeft">
+        <div id="nav" class="box">
+          <ul class="menu-list">
+            <li><a data-target="pane-1" class="is-active" id="1">Obavijesti korisnicima</a></li>
+            <li><a data-target="pane-2" id="2">Novo u ponudi</a></li>
+            <li><a data-target="pane-3" id="3">Karijera</a></li>
+            <li><a data-target="pane-4" id="4">Kako do nas?</a></li>
+            <li><a data-target="pane-5" id="5">FAQ</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Lijevi izbornik -->
+      <!-- Obavijesti-->
+      <div class="tab-pane column animated slideInRight" id="pane-1">
+        <div class="box has-background-link">
+          <h1 class="has-text-centered has-text-white">
+            Obavijesti korisnicima
+          </h1>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="card is-shady">
+
+              <div class="card-image">
+                <figure class="image">
+                  <img src="img/index/radno.jpg" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="has-text-centered">Novo radno vrijeme telefonske korisničke podrške</h4>
+                  <h6 class="has-text-centered has-text-link">11.01.2019</h6>
+                  <p>Obavještavamo postojeće klijente o novom radnom vremenu telefonske korisničke podrške. Novo radno vrijeme od 14. siječnja 2019. je od 8:30 do 16:30 sati. Radno vrijeme korisničke podrške putem naših ostalih kanala (društvene mreže, e-mail, online chat) ostaje nepromijenjeno.</p>
+                  <p><a href="#">Pročitajte više</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="img/index/prekid.jpg" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="has-text-centered">Kratkotrajan prekid u radu</h4>
+                  <h6 class="has-text-centered has-text-link">15.01.2019</h6>
+                  <p>Poštovani korisnici, <br> <br>
+
+                    Želimo Vas obavijestiti kako ćemo dana 01.02.2019. od 04:00 - 06:00 vršiti radove na našoj opremi u svrhu redovnog održavanja servera. U navedenom razdoblju očekujemo kratkotrajne prekide u radu CRM usluga. Za sve dodatne upite i informacije stojimo Vam na raspolaganju na broju 01/2345-678 ili na info@amv.hr<br>
+
+                    Zahvaljujemo na razumijevanju! <br> <br>
+
+                    Vaš AMV
+                  </p>
+                  <p><a href="#">Pročitajte više</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Obavijesti-->
+      <!-- Novo u ponudi-->
+      <div class="tab-pane column animated slideInRight" id="pane-2" style="display:none;" >
+        <div class="box has-background-link">
+          <h1 class="has-text-centered has-text-white ">
+            Novo u ponudi
+          </h1>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="img/index/novo.jpg" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="has-text-centered">AMV AutoOffice</h4>
+                  <p>Od 01.01.2019. klijentima je dostupna specijalna verzija AMV AutoOffice softvera, namijenjena malim odvjetničkim uredima, obrtima za intelektualne i poslovne usluge i knjigovodstvenim servisima. Ovaj paket uključuje sve funkcije standardnog AutoOffice izdanja namijenjenog državnoj upravi, s posebno prilagođenim i pojednostavljenim korisničkim modulima za manje urede. Svoj AMV AutoOffice paket ugovorite već danas na broj 01/2345-678 ili putem kontakt forme na našoj web stranici. Svakako se upoznajte s karakteristikama našeg softvera na sljedećoj <a href="amvoffice.html">poveznici</a>.</p>
+                  <p><a href="#">Pročitajte više</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Novo u ponudi-->
+      <!-- Karijera-->
+      <div class="tab-pane column animated slideInRight" id="pane-3" style="display:none;">
+        <div class="box has-background-link">
+          <h1 class="has-text-centered has-text-white ">
+            Karijera
+          </h1>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="img/index/karijera.jpg" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="has-text-centered">Postani dio AMV razvojnog tima!</h4>
+                  <p>Developer si s višegodišnjim iskustvom u razvoju stolnih programskih rješenja? Imaš VSS informatičke struke, odlično poznaješ engleski jezik i timski si igrač? AMV ti nudi priliku da se profesionalno razvijaš i da svojim znanjem i talentom obogaćuješ našu ponudu poslovnog softvera, koji klijentima olakšava vođenje poduzeća, odnose s kupcima i uredsko poslovanje. Prednost imaju kandidati sa iskustvom u razvoju poslovnog softvera. Aktualne natječaje pogledajte na sljedećoj <a href="natjecaji.html"> poveznici</a> <br>
+                    <br>
+                    Ukoliko ste tvrtka koja se bavi upravljanjem IT uslugama (praćenje poslovnih događaja i performansi, backup) ili upravljanjem procesima (benchmarking i reinženjering poslovnih procesa), javite nam se radi moguće poslovne suradnje na 01/2345-678 i dogovorite sastanak već danas.
+                  </p>
+                  <p><a href="#">Pročitajte više</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Kako do nas?-->
+      <div class="tab-pane column animated slideInRight" id="pane-4" style="display:none;">
+        <div class="box has-background-link">
+          <h1 class="has-text-centered has-text-white">
+            Kako do nas?
+          </h1>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="box"><iframe  style="width:100%;border:0px;overflow:hidden" height="500" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=slavonska%20avenija%20500+(AMV)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe></div><br />
+          </div>
+        </div>
+      </div>
+      <!-- Kako do nas?-->
+      <!-- FAQ-->
+      <div class="tab-pane column animated slideInRight" id="pane-5" style="display:none;">
+        <div class="box has-background-link">
+          <h1 class="has-text-centered has-text-white">
+            Često postavljana pitanja
+          </h1>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <div class="card-content box has-background-white">
+              <div class="content">
+                <p class="has-text-link">Koja je cijena vašeg softvera i IT usluga?</p>
+                <p>Cijena ovisi o vrsti softvera, načinu plaćanja, veličini Vaše tvrtke i broju pokrivenih poslovnih procesa, trajanju ugovora, dogovorenoj razini korisničke podrške, stupnju integracije s postojećom infrastrukturom i drugim parametrima i saznajete ju prilikom kontakta s našim stručnjakom nakon sastavljanja neobavezne inicijalne ponude za Vaše konkretno poduzeće.</p>
+                <p class="has-text-link">Može li se vaš softver kombinirati s postojećim softverom drugog dobavljača?</p>
+                <p>Softver tvrtke AMV interoperabilan je i skalabilan i u potpunosti se može integrirati u postojeću infrastrukturu te koristiti zajedno s aplikativnim rješenjima drugih dobavljača na svim operacijskim sustavima.</p>
+                <p class="has-text-link">Želim li koristiti vaše usluge, moram li raskinuti ugovor s trenutnim pružateljem IT usluga?</p>
+                <p>Ugovor s tvrtkom AMV sklapate u partnerskom duhu i naši djelatnici nikad neće zahtijevati da pod cijenu suradnje koristite isključivo naše usluge. Eventualna ograničenja su financijske prirode, gdje sami procjenjujete isplativost korištenja iste usluge kod 2 različita dobavljača.</p>
+                <p class="has-text-link">Mogu li kao fizička osoba sklopiti ugovor s Vašom tvrtkom?</p>
+                <p>Softver tvrtke AMV namijenjen je poslovnim subjektima i ugovor sklapate kao pravna osoba.</p>
+                <p class="has-text-link">Vlasnik sam jedne zadruge, treba li mi AMV AutoOffice?</p>
+                <p>AMV AutoOffice namijenjen je digitalizaciji uredskog poslovanja u državnoj upravi, odvjetničkim uredima i knjigovodstvenim servisima.</p>
+                <p class="has-text-link">Zašto AMV TurboITIL, a ne Jira Service Desk?</p>
+                <p>ITSM softver tvrtke AMV posebno je prilagođen malim tvrtkama i domaćim uvjetima poslovanja, pri čemu ne plaćate usluge koje ne koristite i koje su standardni dio paketa vodećih proizvođača ITSM softvera.</p>
+                <p class="has-text-link">Vodim marketinšku agenciju, treba li mi vaš CRM softver?</p>
+                <p>CRM kao koncept ne uključuje samo marketing, već i prodaju i korisničku podršku. Ukoliko prepoznajete sve ove elemente u Vašem poslovanju, upućujemo Vas na korištenje naše usluge.</p>
+                <p class="has-text-link">Pozvan/a sam na razgovor s vašim agentom radi sastavljanja inicijalne ponude IT usluga za svoju tvrtku, smijem li poslati svog opunomoćenika?</p>
+                <p>Sastavljanju inicijalne ponude smije pristupiti svaka ovlaštena osoba Vaše tvrtke koja razumije poslovne procese koje želi podržati IT softverom.</p>
+                <p class="has-text-link">U ime državne institucije u kojoj radim zadužen sam za uvođenje novog uredskog softvera, no moji djelatnici loše barataju engleskim softverom, isplati li mi se uvesti AMV AutoOffice?</p>
+                <p>Sav softver tvrtke AMV u potpunosti je lokaliziran i preveden na hrvatski jezik.</p>
+                <p class="has-text-link">Istekla mi je licenca za vaš softver, treba li sastavljati novu inicijalnu ponudu usluga?</p>
+                <p>Ne, nova licenca se aktivira automatski nakon produženja ugovora.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ-->
+      </div>
+    </div>
+  </section>
+  <!-- Središnji dio-->
+  <!-- Footer-->
+  <div class="top">
+    <footer class="footer is-paddingless has-background-white animted slideInUp">
+      <div class="container">
+        <div class="column has-text-centered">
+          <a>
+            <span class="icon is-large">
+              <i class="fas fa-2x fab fa-twitter"></i>
+            </span>
+          </a>
+          <a>
+            <span class="icon is-large">
+              <i class="fas fa-2x fab fa-facebook-f"></i>
+            </span>
+          </a>
+          <a>
+            <span class="icon is-large">
+              <i class="fas fa-2x fab fa-instagram"></i>
+            </span>
+          </a>
+          <a>
+            <span class="icon is-large">
+              <i class="fas fa-2x fab fa-youtube"></i>
+            </span>
+          </a>
+        </div>
+        <div class="has-text-centered">
+          <a href="index.html">
+            <img id="logo_footer" class="grow" alt="AMV" style="height:50px" src="img/logo.png">
+          </a>
+          <p class="has-text-black has-text-centered footer-padding is-size-7">AMV 2019.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer-->
+  <script src="js/index/swiper.js"></script>
+  <script src="js/index/hamburger_index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+  <script src="js/index/navigacija_fixed.js"></script>
+  <script src="js/index/lijevi_izbornik.js"></script>
+</body>
+</html>

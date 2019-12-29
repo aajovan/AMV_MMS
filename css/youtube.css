@@ -1,0 +1,14 @@
+html,
+body,
+iframe
+ {
+
+  box-sizing: border-box;
+}
+
+iframe{
+  object-fit : cover;
+  width:100vw;
+height:80vh;
+margin-bottom:10px;
+}

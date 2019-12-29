@@ -1,0 +1,60 @@
+.top {
+  padding-top: 5rem
+}
+.footer-padding {
+  padding-top: 1rem
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.navbar-gradient {
+background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.navbar-white {
+  background-color: #ffffff;
+  border-bottom: 1px solid #3579dc;
+}
+.navbar-link {
+  background-color: #3579dc;
+  border-bottom: 1px solid #ffffff;
+}
+.full {
+  height: 100%;
+}
+.kontakt {
+  padding-top: 7rem;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+.main-container {
+ min-height: 100vh; 
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 7.5rem;
+}
+.main-container-index {
+ min-height: 100vh; 
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 0rem; 
+}
+.footer-bottom {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+.shadow {
+  text-shadow: 2px 2px #4a4a4a;
+}
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}

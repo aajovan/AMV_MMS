@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/animacije.css">
+  <link rel="stylesheet" href="css/bulma_fix.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+
+</head>
+<body>
+  <!-- Navigacija-->
+  <nav id="navigacija" class="navbar is-fixed-top navbar-white">
+    <div class="container is-fluid">
+      <div class="navbar-brand ">
+        <a class="navbar-item" href="index.html">
+          <img id="logo" alt="AMV" class="grow" src="img/logo.png">
+        </a>
+        <div class="navbar-burger burger" data-target="navMenubd-example">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenubd-example" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a  id="nav-text_1" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>O nama</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="opceinformacije.html">
+                Opće informacije
+              </a>
+              <a class="navbar-item " href="storadimo.html">
+                Što radimo?
+              </a>
+              <a class="navbar-item " href="nasiklijenti.html">
+                Naši klijenti
+              </a>
+              <a class="navbar-item " href="misijavizija.html">
+                Misija i vizija
+              </a>
+              <a class="navbar-item " href="partneri.html">
+                Partneri
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_2" style="cursor: context-menu" class="has-text-dark grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Usluge</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item" href="amvoffice.html">
+                Za ured
+              </a>
+              <a class="navbar-item has-text-dark" href="amvturbocrm.html">
+                Za odnose s kupcima
+              </a>
+              <a class="navbar-item " href="amvturboitil.html">
+                Za primjenu najbolje prakse
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_3" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Galerija</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="galerijaslike.html">
+                Galerija slika
+              </a>
+              <a class="navbar-item " href="galerijavideo.html">
+                Video galerija
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable">
+            <div class="navbar-item">
+              <a id="nav-text_4" style="cursor: context-menu" class="has-text-link grow is-size-5">
+                <span class="icon is-small">
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <span>Iz medija</span>
+              </a>
+            </div>
+            <div class="navbar-dropdown is-size-6 ">
+              <a class="navbar-item " href="aktualno.html">
+                Aktualno
+              </a>
+              <a class="navbar-item " href="predstavljanje.html">
+                Predstavljanje tvrtke AMV
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item is-hoverable is-size-6">
+            <div class="navbar-item">
+              <a id="nav-text_5" href="kontakt.html" class="has-text-link grow is-size-5">
+                <span>Kontakt</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item field">
+            <p class="control has-icons-right">
+              <input id="trazi" class="button is-link is-outlined has-background-white is-rounded grow" type="search" placeholder="Pretraživanje...">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigacija-->
+  <div class="main-container">
+    <section class="hero is-meium has-carousel top">
+      <img alt="Misija i vizija" src="img/usluge/crm.jpg" />
+    </section>
+    <div class="tabs is-boxed is-centered main-menu" id="nav">
+      <ul>
+        <li data-target="pane-1" id="1" class="is-active">
+          <a>
+            <span class="icon is-small"><i class="fa fa-users"></i></span>
+            <span>Namjena</span>
+          </a>
+        </li>
+        <li data-target="pane-2" id="2" class="">
+          <a>
+            <span class="icon is-small"><i class="fas fa-plus"></i></span>
+            <span >Prednosti</span>
+          </a>
+        </li>
+        <li data-target="pane-3" id="3">
+          <a>
+            <span class="icon is-small"><i class="fas fa-tasks"></i></span>
+            <span>Mogućnosti</span>
+          </a>
+        </li>
+        <li data-target="pane-4" id="4">
+          <a>
+            <span class="icon is-small"><i class="fa fa-shopping-cart"></i></span>
+            <span>Kupnja</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content container">
+      <div class="tab-pane is-active" id="pane-1">
+        <div class="card-content">
+          <div class="box">
+            <p>Uz TurboCRM poslovni sustav tvrtke AMV upravljajte odnosima sa svojim klijentima na svim razinama na jednostavan, učinkovit i suvremen način. CRM nije samo softver već način razmišljanja usmjeren važnosti kvalitete i poslovanja usmjerenog na kupce. </p>
+          </div>
+          <div class="box">
+            <p>CRM se ne bavi samo prodajom, samo marketingom ili samo korisničkom podrškom već integracijom sva tri elementa, stoga je AMV TurboCRM sustav razvijen kako bi obuhvatio cjelovito upravljanje odnosima s klijentima.</p>
+          </div>
+          <div class="box">
+            <h4 class="has-text-centered has-text-white box has-background-link">Što je AMV TurboCRM i kome je namijenjen?</h4>
+            <div class="columns">
+              <div class="column">
+                <p class="box is-transparent">TurboCRM je poslovno programsko rješenje tvrtke AMV za upravljanje poslovnim odnosom, koje obuhvaća module upravljanja marketingom, prodajom i korisničkom podrškom. Ovaj sustav bilježi sve oblike svakodnevne komunikacije tvrtke s klijentima i korisnicima, planiranje marketinških aktivnosti i kampanja, planiranje pojedinačne i masovne prodaje, te statističko praćenje i izvještavanje o uspješnosti svih ovih procesa.</p>
+              </div>
+              <div class="column">
+                <p class="box is-transparent">AMV TurboCRM namijenjen je svim novoosnovanim i postojećim malim i srednjim poduzećima koja u svom poslovanju značajne resurse troše na marketinške i prodajne aktivnosti i žele unaprijediti svoj odnos s klijentima, bilo da su nezadovoljna trenutnim upravljanjem poslovnim odnosom ili tek traže rješenje za to.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-2" style="display:none;">
+        <div class="card-content">
+          <div class="box">
+            <h4 class="has-text-centered has-text-white box has-background-link">Zašto AMV TurboCRM?</h4>
+            <div class="columns">
+              <div class="column">
+                <p class="box is-transparent">Ovaj sustav razvijen je kako bi se pojednostavilo upravljanje odnosima s klijentima. Upotrebom AMV TurboCRM alata nećete se više baviti papirnatim evidencijama i planerima, proračunskim tablicama, kalendarima i brojnim računima elektroničke pošte. Brža i jednostavnija je i komunikacija sa suradnicima i klijentima.</p>
+              </div>
+              <div class="column">
+                <p class="box is-transparent">CRM sustavi općenito čine poslove Vaše tvrtke učinkovitijim i produktivnijim i pomažu Vam značajno povećati prihode te smanjiti nepotrebne troškove. AMV TurboCRM pruža Vam cjeloviti pogled na klijente i na sve prodajne aktivnosti na jednom mjestu. </p>
+              </div>
+              <div class="column">
+                <p class="box is-transparent">Pomoću uređene baze klijenata i kontakt podataka na jednom mjestu jednostavno pripremajte i vodite marketinške kampanje i izrađujte kataloge dok ćete istovremeno moći pratiti sve zahtjeve korisnika i osigurati da ti zahtjevi rezultiraju kupnjom.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-3" style="display:none;">
+        <div class="card-content">
+          <div class="">
+            <h4 class="has-text-centered has-text-white box has-background-link">Što sve AMV TurboCRM omogućuje?</h4>
+            <ul class="" >
+              <li class="box">Daje odgovore na pitanja o čemu su Vaši kolege prije određenog vremena razgovarali s klijentima, tko od zaposlenika radi na kojem upitu i u kojoj je trenutno fazi, o čemu su bili telefonski razgovori s kupcima, koliko vremena je potrebno za slanje prigodnih čestitki ili promotivnih materijala poslovnim partnerima, koja je količina potražnje i kakvo je stanje svakog pojedinog zahtjeva te brojna druga pitanja</li>
+              <li class="box">Uvid u korisnikov doprinos neto prihodu tvrtke</li>
+              <li class="box">Uvid u strukturu ostvarenog neto prihoda po vrstama proizvoda do razine svake transakcije</li>
+              <li class="box">Mogućnost usporedbe i analize rezultata s prethodnim poslovnim godinama</li>
+              <li class="box">Automatsko obavještavanje voditelja prodaje o nepodmirenim dospjelim obvezama, njihovom dospijeću i blokadama bankovnih računa</li>
+              <li class="box">Strateško planiranje prodaje za buduća razdoblja po različitim parametrima: po proizvodima, korisnicima, organizacijskim razinama i sektorima</li>
+              <li class="box">Usporedbu ostvarenih prihoda s poslovnim planom</li>
+              <li class="box">Pojednostavljenu selekciju i klasifikaciju budućih korisnika</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="pane-4" style="display:none;">
+        <div class="box">
+          <h4 class="has-text-centered has-text-white box has-background-link">Kako naručiti AMV TurboCRM?</h4>
+          <p>Za kupnju AMV TurboCRM sustava kontaktirajte nas na broj telefona 01/2345-678, putem elektroničke pošte ili <a href="kontakt.html">ispunite kontakt formu</a> na našoj web stranici.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <div class="" style="padding-top:5rem">
+      <footer class="footer footer-bottom is-paddingless has-background-white animted slideInUp">
+        <div class="container">
+          <div class="column has-text-centered">
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-twitter"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-facebook-f"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-instagram"></i>
+              </span>
+            </a>
+            <a>
+              <span class="icon is-large">
+                <i class="fas fa-2x fab fa-youtube"></i>
+              </span>
+            </a>
+          </div>
+          <div class="has-text-centered">
+            <a href="index.html">
+              <img id="logo_footer" alt="AMV" class="grow" style="height:50px" src="img/logo.png">
+            </a>
+          </div>
+          <p class="has-text-black has-text-centered footer-padding is-size-7">AMV 2019.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Footer-->
+  <script src="js/tabs-h.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+</html>

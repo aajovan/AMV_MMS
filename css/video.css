@@ -1,0 +1,49 @@
+html,
+body,
+video
+ {
+  box-sizing: border-box;
+}
+video{
+margin-bottom:10px;
+height:80vh;
+}
+    .swiper-container {
+      margin-top:5.3rem;
+      height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+    .swiper-slide {
+      overflow: hidden;
+    }
+    .gallery-top {
+      height: 80vh;
+      width: 100%;
+    }
+    .gallery-thumbs {
+      height:20vh;
+      box-sizing: border-box;
+
+    }
+    .gallery-thumbs .swiper-slide {
+      height: 100%;
+      opacity: 0.4;
+    }
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+    .swiper-button-next {
+      padding-right:8rem;
+    }
+    .swiper-button-prev {
+      padding-left:8rem;
+    }
+
+.test {
+  height: 80vh;
+}
