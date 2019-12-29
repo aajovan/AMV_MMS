@@ -5,3 +5,11 @@
 </br>
 </br>
 Izrada web-stranica te popratnih materijala za fiktivno poduzeće "AMV" iz kolegija Multimedijski sustavi.
+## Korištene tehnologije:
+
+* HTML
+* CSS
+* Javascript
+* Bulma
+* Swiper.js
+
